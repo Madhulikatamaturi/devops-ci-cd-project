@@ -24,7 +24,11 @@ This project demonstrates a complete CI/CD pipeline that automatically builds an
 
 ## Project Architecture
 
-![Architecture Diagram](images/architecture.png)
+## Project Architecture
+
+<p align="center">
+  <img src="images/architecture.png" width="700">
+</p>
 
 ## CI/CD Workflow
 
@@ -105,7 +109,11 @@ Steps performed during the build:
 
 ## Jenkins Pipeline
 
-![Jenkins Pipeline](images/jenkins_pipeline.png)
+## Jenkins Pipeline
+
+<p align="center">
+  <img src="images/jenkins_pipeline.png" width="900">
+</p>
 
 The Jenkins pipeline automates the build and deployment process using predefined stages.
 
@@ -129,7 +137,11 @@ After a successful build, the application becomes accessible at:
 
 http://localhost:5000
 
-![Application Screenshot](images/application_output.png)
+## Application Output
+
+<p align="center">
+  <img src="images/application_output.png" width="800">
+</p>
 
 ---
 
