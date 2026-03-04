@@ -24,8 +24,6 @@ This project demonstrates a complete CI/CD pipeline that automatically builds an
 
 ## Project Architecture
 
-## Project Architecture
-
 <p align="center">
   <img src="images/architecture.png" width="400">
 </p>
@@ -62,6 +60,7 @@ Application runs on **localhost:5000**
 
 ## Project Structure
 
+```
 devops-ci-cd-project
 │
 ├── app.py
@@ -70,7 +69,11 @@ devops-ci-cd-project
 ├── Jenkinsfile
 ├── README.md
 └── images
-
+    ├── architecture.png
+    ├── jenkins_pipeline.png
+    ├── docker_container.png
+    └── application_output.png
+```
 ---
 
 ## CI/CD Pipeline Stages
