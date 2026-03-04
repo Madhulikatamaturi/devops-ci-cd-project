@@ -95,6 +95,7 @@ A new Docker container is launched with the updated application.
 
 ## Docker Configuration
 
+
 The Dockerfile defines the container environment.
 
 Steps performed during the build:
@@ -128,6 +129,14 @@ Jenkins Pipeline Execution
 Docker Build
 ↓
 Docker Deployment
+
+## Docker Container Deployment
+
+The Jenkins pipeline builds the Docker image and deploys the application container automatically.
+
+<p align="center">
+  <img src="images/docker_container.png" width="850">
+</p>
 
 ---
 
