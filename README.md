@@ -1,10 +1,12 @@
-# DevOps CI/CD Pipeline using Jenkins and Docker
+# DevOps CI/CD Pipeline using Jenkins & Docker 🚀
 
-## Project Overview
+This project demonstrates a complete CI/CD pipeline that automatically builds and deploys a containerized Flask application using Jenkins and Docker. Whenever code is pushed to GitHub, Jenkins triggers a pipeline that builds the Docker image and deploys the application.
 
-This project demonstrates a simple CI/CD pipeline that automatically builds and deploys a containerized Flask application using Jenkins and Docker.
-
-Whenever code is pushed to the GitHub repository, Jenkins automatically triggers a pipeline that builds a Docker image and deploys the updated application container. This project simulates a real-world DevOps workflow and showcases how automated software delivery pipelines operate.
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Docker](https://img.shields.io/badge/Docker-Containerization-blue)
+![Jenkins](https://img.shields.io/badge/Jenkins-CI/CD-red)
+![Flask](https://img.shields.io/badge/Flask-Web%20Framework-black)
+![GitHub](https://img.shields.io/badge/GitHub-Version%20Control-lightgrey)
 
 ---
 
@@ -23,6 +25,18 @@ Whenever code is pushed to the GitHub repository, Jenkins automatically triggers
 ## Project Architecture
 
 ![Architecture Diagram](images/architecture.png)
+
+## CI/CD Workflow
+
+The pipeline follows these steps:
+
+1. Developer pushes code to GitHub.
+2. GitHub webhook triggers Jenkins pipeline.
+3. Jenkins clones the repository.
+4. Jenkins builds a Docker image.
+5. Jenkins stops any running container.
+6. Jenkins deploys a new Docker container.
+7. The Flask application runs on **localhost:5000**.
 
 ### Workflow
 
