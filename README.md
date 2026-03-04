@@ -113,8 +113,6 @@ Steps performed during the build:
 
 ## Jenkins Pipeline
 
-## Jenkins Pipeline
-
 <p align="center">
   <img src="images/jenkins_pipeline.png" width="700">
 </p>
